@@ -42,45 +42,61 @@ def sm2(a: int):
     
     return a * a
 
-
-
-
-
 def smm(a: int):
-    """For calculating square environment in millimeters
+    """For calculating square perimeter in millimeters
     
     Args:
         a (int): One of the square sides
 
     Returns:
-        Integer: Calculated square environment in millimeters
+        Integer: Calculated square perimeter in millimeters
     """
     
     return a * 4
 
 def scm(a: int):
-    """For calculating square environment in centimeters
+    """For calculating square perimeter in centimeters
     
     Args:
         a (int): One of the square sides
 
     Returns:
-        Integer: Calculated square environment in centimeters
+        Integer: Calculated square perimeter in centimeters
     """
     
     return a * 4
 
 def sm(a: int):
-    """For calculating square environment in meters
+    """For calculating square perimeter in meters
     
     Args:
         a (int): One of the square sides
 
     Returns:
-        Integer: Calculated square environment in meters
+        Integer: Calculated square perimeter in meters
     """
     
     return a * 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -128,43 +144,53 @@ def rm2(a: int, b: int):
     return a * b
 
 def rmm(a: int, b: int):
-    """For calculating rectangle environment in millimeters
+    """For calculating rectangle perimeter in millimeters
     
     Args:
         a (int): Length of the rectangle
         b (int): Width of the rectangle
 
     Returns:
-        Integer: Calculated rectangle environment in millimeters
+        Integer: Calculated rectangle perimeter in millimeters
     """
     
     return (a * 2) + (b * 2)
 
 def rcm(a: int, b: int):
-    """For calculating rectangle environment in centimeters
+    """For calculating rectangle perimeter in centimeters
     
     Args:
         a (int): Length of the rectangle
         b (int): Width of the rectangle
 
     Returns:
-        Integer: Calculated rectangle environment in centimeters
+        Integer: Calculated rectangle perimeter in centimeters
     """
     
     return (a * 2) + (b * 2)
 
 def rm(a: int, b: int):
-    """For calculating rectangle environment in meters
+    """For calculating rectangle perimeter in meters
     
     Args:
         a (int): Length of the rectangle
         b (int): Width of the rectangle
 
     Returns:
-        Integer: Calculated rectangle environment in meters
+        Integer: Calculated rectangle perimeter in meters
     """
     
     return (a * 2) + (b * 2)
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -213,44 +239,29 @@ def tm2(a: int, b: int):
     
     return (a * b) / 2
 
-def tmm(a: int, b: int):
-    """For calculating triangle environment in millimeters
-    
-    Args:
-        a (int): Height of the triangle
-        b (int): Width of the triangle
 
-    Returns:
-        Integer: Calculated triangle environment in millimeters
-    """
-    
-    return a + b
 
-def tcm(a: int, b: int):
-    """For calculating triangle environment in centimeters
-    
-    Args:
-        a (int): Height of the triangle
-        b (int): Width of the triangle
 
-    Returns:
-        Integer: Calculated triangle environment in centimeters
-    """
-    
-    return a + b
 
-def tm(a: int, b: int):
-    """For calculating triangle environment in meters
-    
-    Args:
-        a (int): Height of the triangle
-        b (int): Width of the triangle
 
-    Returns:
-        Integer: Calculated triangle environment in meters
-    """
-    
-    return a + b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -353,6 +364,123 @@ def rcm3(a: int, b: int, c: int):
     """
     
     return a * b * c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Circle
+
+def cimma(a: int):
+    """For calculating circle area in millimeters
+    
+    Args:
+        a (int): Radius
+
+    Returns:
+        Integer: Calculated circle area in millimeters
+    """
+    
+    return 3.14 * a * a
+
+def cimca(a: int):
+    """For calculating circle area in centimeters
+    
+    Args:
+        a (int): Radius
+
+    Returns:
+        Integer: Calculated circle area in centimeters
+    """
+    
+    return 3.14 * a * a
+
+def cima(a: int):
+    """For calculating circle area in meters
+    
+    Args:
+        a (int): Radius
+
+    Returns:
+        Integer: Calculated circle area in meters
+    """
+    
+    return 3.14 * a * a
+
+def cimm(a: int):
+    """For calculating circle circumference in millimeters
+    
+    Args:
+        a (int): Radius
+
+    Returns:
+        Integer: Calculated circle circumference in millimeters
+    """
+    
+    return 3.14 * a * 2
+
+def cicm(a: int):
+    """For calculating circle circumference in centimeters
+    
+    Args:
+        a (int): Radius
+
+    Returns:
+        Integer: Calculated circle circumference in centimeters
+    """
+    
+    return 3.14 * a * a
+
+def cim(a: int):
+    """For calculating circle circumference in meters
+    
+    Args:
+        a (int): Radius
+
+    Returns:
+        Integer: Calculated circle circumference in meters
+    """
+    
+    return 3.14 * a * a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
