@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='openmathutils',
-    version='0.1.2',
+    name='mathutils',
+    version='0.0.1',
     description='Simple math utilities for python',
     long_description_content_type="text/markdown",
     long_description=open('README.md').read(),
