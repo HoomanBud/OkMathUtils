@@ -1,3 +1,7 @@
 test.py
 dist
 okmathutils.egg-info
+openmathutils.egg-info/dependency_links.txt
+openmathutils.egg-info/PKG-INFO
+openmathutils.egg-info/SOURCES.txt
+openmathutils.egg-info/top_level.txt

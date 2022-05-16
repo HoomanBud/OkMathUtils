@@ -1,9 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-setup.py
-openmathutils/__init__.py
-openmathutils.egg-info/PKG-INFO
-openmathutils.egg-info/SOURCES.txt
-openmathutils.egg-info/dependency_links.txt
-openmathutils.egg-info/top_level.txt
