@@ -1,14 +1,11 @@
 from setuptools import setup, find_packages
 
-with open('README.md') as readme_file:
-    README = readme_file.read()
-
 setup(
     name='openmathutils',
     version='0.1.2',
     description='Simple math utilities for python',
     long_description_content_type="text/markdown",
-    long_description=README,
+    long_description=open('README.md').read(),
     license='MIT',
     packages=find_packages(),
     author='Hooman Bud',

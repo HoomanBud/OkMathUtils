@@ -1,4 +1,5 @@
 # OpenMathUtils
-A package for python
-
-Still underdevelopment, Please do NOT use it until this text line gets removed.
+Math calculation package for python that adds new features
+Such as:
+    Square millimeters, centimeters, meters
+    And more
