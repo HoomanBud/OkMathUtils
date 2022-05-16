@@ -6,7 +6,7 @@
 
 #Square
 
-def mm2(a: int):
+def smm2(a: int):
     """For calculating square millimeters
 
     Args:
@@ -18,7 +18,7 @@ def mm2(a: int):
     
     return a * a
 
-def cm2(a: int):
+def scm2(a: int):
     """For calculating square centimeters
     
     Args:
@@ -30,7 +30,7 @@ def cm2(a: int):
     
     return a * a
 
-def m2(a: int):
+def sm2(a: int):
     """For calculating square meters
     
     Args:
@@ -46,7 +46,7 @@ def m2(a: int):
 
 
 
-def mm(a: int):
+def smm(a: int):
     """For calculating square environment in millimeters
     
     Args:
@@ -58,7 +58,7 @@ def mm(a: int):
     
     return a * 4
 
-def cm(a: int):
+def scm(a: int):
     """For calculating square environment in centimeters
     
     Args:
@@ -70,7 +70,7 @@ def cm(a: int):
     
     return a * 4
 
-def m(a: int):
+def sm(a: int):
     """For calculating square environment in meters
     
     Args:
@@ -81,3 +81,173 @@ def m(a: int):
     """
     
     return a * 4
+
+
+
+
+
+#Rectangle
+
+def rmm2(a: int, b: int):
+    """For calculating rectangle millimeters
+    
+    Args:
+        a (int): Length of the rectangle
+        b (int): Width of the rectangle
+
+    Returns:
+        Integer: Calculated rectangle millimeters in millimeters
+    """
+    
+    return a * b
+
+def rcm2(a: int, b: int):
+    """For calculating rectangle centimeters
+    
+    Args:
+        a (int): Length of the rectangle
+        b (int): Width of the rectangle
+
+    Returns:
+        Integer: Calculated rectangle centimeters in centimeters
+    """
+    
+    return a * b
+
+def rm2(a: int, b: int):
+    """For calculating rectangle meters
+    
+    Args:
+        a (int): Length of the rectangle
+        b (int): Width of the rectangle
+
+    Returns:
+        Integer: Calculated rectangle meters in meters
+    """
+    
+    return a * b
+
+def rmm(a: int, b: int):
+    """For calculating rectangle environment in millimeters
+    
+    Args:
+        a (int): Length of the rectangle
+        b (int): Width of the rectangle
+
+    Returns:
+        Integer: Calculated rectangle environment in millimeters
+    """
+    
+    return (a * 2) + (b * 2)
+
+def rcm(a: int, b: int):
+    """For calculating rectangle environment in centimeters
+    
+    Args:
+        a (int): Length of the rectangle
+        b (int): Width of the rectangle
+
+    Returns:
+        Integer: Calculated rectangle environment in centimeters
+    """
+    
+    return (a * 2) + (b * 2)
+
+def rm(a: int, b: int):
+    """For calculating rectangle environment in meters
+    
+    Args:
+        a (int): Length of the rectangle
+        b (int): Width of the rectangle
+
+    Returns:
+        Integer: Calculated rectangle environment in meters
+    """
+    
+    return (a * 2) + (b * 2)
+
+
+
+
+
+
+
+#Triangle
+
+def tmm2(a: int, b: int):
+    """For calculating triangle millimeters
+    
+    Args:
+        a (int): Height of the triangle
+        b (int): Width of the triangle
+
+    Returns:
+        Integer: Calculated triangle millimeters in millimeters
+    """
+    
+    return (a * b) / 2
+
+def tcm2(a: int, b: int):
+    """For calculating triangle centimeters
+    
+    Args:
+        a (int): Height of the triangle
+        b (int): Width of the triangle
+
+    Returns:
+        Integer: Calculated triangle centimeters in centimeters
+    """
+    
+    return (a * b) / 2
+
+def tm2(a: int, b: int):
+    """For calculating triangle meters
+    
+    Args:
+        a (int): Height of the triangle
+        b (int): Width of the triangle
+
+    Returns:
+        Integer: Calculated triangle meters in meters
+    """
+    
+    return (a * b) / 2
+
+def tmm(a: int, b: int):
+    """For calculating triangle environment in millimeters
+    
+    Args:
+        a (int): Height of the triangle
+        b (int): Width of the triangle
+
+    Returns:
+        Integer: Calculated triangle environment in millimeters
+    """
+    
+    return a + b
+
+def tcm(a: int, b: int):
+    """For calculating triangle environment in centimeters
+    
+    Args:
+        a (int): Height of the triangle
+        b (int): Width of the triangle
+
+    Returns:
+        Integer: Calculated triangle environment in centimeters
+    """
+    
+    return a + b
+
+def tm(a: int, b: int):
+    """For calculating triangle environment in meters
+    
+    Args:
+        a (int): Height of the triangle
+        b (int): Width of the triangle
+
+    Returns:
+        Integer: Calculated triangle environment in meters
+    """
+    
+    return a + b
