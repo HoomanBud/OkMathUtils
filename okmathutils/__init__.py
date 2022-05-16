@@ -251,3 +251,187 @@ def tm(a: int, b: int):
     """
     
     return a + b
+
+
+
+
+
+
+
+#Cube
+
+def cmm3(a: int, b: int, c: int):
+    """For calculating cube millimeters
+    
+    Args:
+        a (int): Length
+        b (int): Width
+        c (int): Height
+
+    Returns:
+        Integer: Calculated cube millimeters in millimeters
+    """
+    
+    return a * b * c
+
+def ccm3(a: int, b: int, c: int):
+    """For calculating cube centimeters
+    
+    Args:
+        a (int): Length
+        b (int): Width
+        c (int): Height
+
+    Returns:
+        Integer: Calculated cube centimeters in centimeters
+    """
+    
+    return a * b * c
+
+def cm3(a: int, b: int, c: int):
+    """For calculating cube meters
+    
+    Args:
+        a (int): Length
+        b (int): Width
+        c (int): Height
+
+    Returns:
+        Integer: Calculated cube meters in meters
+    """
+    
+    return a * b * c
+
+
+
+
+
+
+
+
+
+#Rectangle Cuboid
+
+def rcmm3(a: int, b: int, c: int):
+    """For calculating rectangle cuboid millimeters
+    
+    Args:
+        a (int): Length
+        b (int): Width
+        c (int): Height
+
+    Returns:
+        Integer: Calculated rectangle cuboid millimeters in millimeters
+    """
+    
+    return a * b * c
+
+def rccm3(a: int, b: int, c: int):
+    """For calculating rectangle cuboid centimeters
+    
+    Args:
+        a (int): Length
+        b (int): Width
+        c (int): Height
+
+    Returns:
+        Integer: Calculated rectangle cuboid centimeters in centimeters
+    """
+    
+    return a * b * c
+
+def rcm3(a: int, b: int, c: int):
+    """For calculating rectangle cuboid meters
+    
+    Args:
+        a (int): Length
+        b (int): Width
+        c (int): Height
+
+    Returns:
+        Integer: Calculated rectangle cuboid meters in meters
+    """
+    
+    return a * b * c
+
+
+
+
+
+
+
+
+
+#Utils
+
+def mm2cm(a: int):
+    """For converting millimeters to centimeters
+    
+    Args:
+        a (int): Millimeters
+
+    Returns:
+        Integer: Converted millimeters to centimeters
+    """
+    
+    return a / 10
+
+def cm2mm(a: int):
+    """For converting centimeters to millimeters
+    
+    Args:
+        a (int): Centimeters
+
+    Returns:
+        Integer: Converted centimeters to millimeters
+    """
+    
+    return a * 10
+
+def mm2m(a: int):
+    """For converting millimeters to meters
+    
+    Args:
+        a (int): Millimeters
+
+    Returns:
+        Integer: Converted millimeters to meters
+    """
+    
+    return a / 1000
+
+def m2mm(a: int):
+    """For converting meters to millimeters
+    
+    Args:
+        a (int): Meters
+
+    Returns:
+        Integer: Converted meters to millimeters
+    """
+    
+    return a * 1000
+
+def cm2m(a: int):
+    """For converting centimeters to meters
+    
+    Args:
+        a (int): Centimeters
+
+    Returns:
+        Integer: Converted centimeters to meters
+    """
+    
+    return a / 100
+
+def m2cm(a: int):
+    """For converting meters to centimeters
+    
+    Args:
+        a (int): Meters
+
+    Returns:
+        Integer: Converted meters to centimeters
+    """
+    
+    return a * 100
