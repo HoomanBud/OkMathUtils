@@ -1,3 +1,5 @@
+import okmathutils
+
 """Package that is useful for math calculations
 \nSuch as:
     Square millimeters, centimeters, meters

@@ -10,5 +10,5 @@ setup(
     packages=find_packages(),
     author='Hooman Bud',
     author_email='hoomanbud5511@gmail.com',
-    url='https://github.com/HoomanBud/OpenMathUtils',
+    url='https://github.com/HoomanBud/OkMathUtils',
 )
